@@ -5,7 +5,7 @@
  * @since 22/11/2023
  */
 // Incluyo la configuración de conexión a la BD
-require_once '../config/confDB.php';
+require_once '../config/confDBPDO.php';
 
 try {
     // Conexión con la base de datos
