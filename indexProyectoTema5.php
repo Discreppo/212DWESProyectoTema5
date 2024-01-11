@@ -19,19 +19,26 @@
                 <tr>
                     <th>Script DB</th>
                     <th>Mostrar entorno desarrollo</th>
+                    <th>Ejecutar entorno explotación</th>
                     <th>Mostrar entorno explotación</th>
                 </tr>
                 <tr>
                     <td>Crea estructura de la base de datos</td> 
-                    <td><a href="mostrarcodigo/mostrarScriptCreaDB.php">Mostrar</a></td>
+                    <td><a href="mostrarcodigo/mostrarScriptCreaDB.php"><img src="webroot/image/botonFavicon.png" width="30px"/></a></td>
+                    <td><a href="scriptDB/CreaDB212DWESProyectoTema5.php"><img src="webroot/image/cross.webp" width="30px"/></a></td>
+                    <td><a href="mostrarcodigo/muestraScriptDBCrea.php"><img src="webroot/image/botonFavicon.png" width="30px"/></a></td>
                 </tr>                
                 <tr>
                     <td>Incluye los datos de la tabla indicada</td>
-                    <td><a href="mostrarcodigo/mostrarScriptCargaInicialDB.php">Mostrar</a></td>
+                    <td><a href="mostrarcodigo/mostrarScriptCargaInicialDB.php"><img src="webroot/image/botonFavicon.png" width="30px"/></a></td>
+                    <td><a href="scriptDB/CargaInicialDB212DWESProyectoTema5.php"><img src="webroot/image/cross.webp" width="30px"/></a></td>
+                    <td><a href="mostrarcodigo/muestraScriptDBCargaInicial.php"><img src="webroot/image/botonFavicon.png" width="30px"/></a></td>
                 </tr>                
                 <tr>
                     <td>Elimina todo</td> 
-                    <td><a href="mostrarcodigo/mostrarScriptBorraDB.php">Mostrar</a></td>
+                    <td><a href="mostrarcodigo/mostrarScriptBorraDB.php"><img src="webroot/image/botonFavicon.png" width="30px"/></a></td>
+                    <td><a href="scriptDB/BorraDB212DWESProyectoTema5.php"><img src="webroot/image/cross.webp" width="30px"/></a></td>
+                    <td><a href="mostrarcodigo/muestraScriptDBBorra.php"><img src="webroot/image/botonFavicon.png" width="30px"/></a></td>
                 </tr>
             </table>
             <h1>Tabla de Ejercicios</h1>
@@ -76,7 +83,7 @@
 
         <footer>
             <p><a href="../index.html">Oscar Pascual Ferrero</a></p>
-            <p><a href="indexProyectoTema4.php">Inicio</a> | <a href="https://github.com/Discreppo/212DWESProyectoTema5" target="_blank" >GitHub</a></p>
+            <p><a href="indexProyectoTema5.php">Inicio</a> | <a href="https://github.com/Discreppo/212DWESProyectoTema5" target="_blank" >GitHub</a></p>
         </footer>
     </body>
 </html>

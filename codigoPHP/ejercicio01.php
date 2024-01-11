@@ -20,7 +20,6 @@ if (
 } else {
     // Credenciales válidas
     echo "Bienvenido, {$_SERVER['PHP_AUTH_USER']}";
-    echo "Esta es la  N vez que se conecta y se conectó la última vez Y";
 }
 ?>
 <!DOCTYPE html>
