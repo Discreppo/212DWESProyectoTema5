@@ -9,7 +9,7 @@ require_once '../config/confDBPDO.php';
 
 try {
     // Conexión con la base de datos
-    $miDB = new PDO(DNS, USERNAME, PASSWORD);
+    $miDB = new PDO(DSN, USERNAME, PASSWORD);
 
     // Verificar si las credenciales de autenticación básica están presentes
     if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) {

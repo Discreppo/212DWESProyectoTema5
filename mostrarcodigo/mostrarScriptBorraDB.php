@@ -4,46 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Oscar Pascual Ferrero</title>
-        <style>
-
-            body {
-                display: flex;
-                flex-direction: column;
-            }
-            header{
-                position: fixed;
-                top: 0;
-                width: 100%;
-                background-color: #fff;
-            }
-            main{
-                margin-top: 10%;
-            }
-            footer{
-                bottom: 0;
-                text-align: center;
-                width: 100%;
-                background-color: lightgray;
-            }
-            table {
-                border-collapse: collapse;
-                width: 70%;
-                margin-bottom: 15%;
-
-
-            }
-
-            th, td {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-            }
-
-            th {
-                background-color: #333;
-                color: white;
-            }
-        </style>
+        <link rel="stylesheet" href="../webroot/css/style.css">
+        <link rel="icon" type="image/x-icon" href="../webroot/image/botonFavicon.png">
     </head>
     <body>
         <header>

@@ -9,23 +9,14 @@
     </head>
     <body>
         <header>
-            <h1>Código Script Crea</h1>
+            <h1>Código Script Crea Explotación</h1>
         </header>
 
         <main>
             <!-- Contenido principal de tu sitio web -->
-           <pre>
-        <code>
-            <?php
-            $ruta_archivo_sql = '../scriptDB/CreaDB212DWESProyectoTema5.sql';
-            if (file_exists($ruta_archivo_sql)) {
-                echo htmlspecialchars(file_get_contents($ruta_archivo_sql));
-            } else {
-                echo 'El archivo SQL no existe.';
-            }
+           <?php
+            highlight_file('../scriptDB/CreaDB212DWESProyectoTema5.php');
             ?>
-        </code>
-    </pre>
 
         </main>
 
