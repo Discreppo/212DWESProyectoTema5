@@ -30,6 +30,15 @@ try {
                 T02_VolumenDeNegocio FLOAT,
                 T02_FechaBajaDepartamento DATETIME
             )ENGINE=INNODB;
+            CREATE TABLE IF NOT EXISTS dbs12302449.T07_Parcela (
+                T07_CodParcela CHAR(3) PRIMARY KEY,
+                T07_DescParcela VARCHAR(255),
+                T07_Superficie FLOAT,    
+                T07_FechaCompra DATETIME DEFAULT CURRENT_TIMESTAMP,    
+                T07_Uso ENUM('Regadío','Secano'),
+                T07_Precio DECIMAL(10, 2),
+                T07_FechaBaja DATETIME
+            )ENGINE=INNODB;
             CONSULTA;
     $consultaPreparada = $conn->prepare($consulta);
     $consultaPreparada->execute();

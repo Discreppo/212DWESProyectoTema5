@@ -29,6 +29,10 @@ try {
                 ('ismael', SHA2('ismaelpaso', 256), 'Ismael Ferreras García', 'usuario'),
                 ('heraclio', SHA2('heracliopaso', 256), 'Heraclio Borbujo Moran', 'usuario'),
                 ('amor', SHA2('amorpaso', 256), 'Amor Rodriguez Navarro', 'usuario');
+            INSERT INTO dbs12302449.T07_Parcela (T07_CodParcela, T07_DescParcela, T07_Superficie, T07_Uso, T07_Precio, T07_FechaBaja) VALUES
+                ('001', 'Parcela de maíz', 150.75, 'Regadío', 5000.00, NULL),
+                ('002', 'Parcela de trigo', 200.30, 'Secano', 7000.00, NULL),
+                ('003', 'Parcela de uvas', 80.50, 'Regadío', 3000.00, NULL);
             CONSULTA;
     $consultaPreparada = $conn->prepare($consulta);
     $consultaPreparada->execute();

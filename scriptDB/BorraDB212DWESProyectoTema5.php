@@ -16,6 +16,7 @@ try {
     $consulta = <<<CONSULTA
             DROP TABLE dbs12302449.T02_Departamento;
             DROP TABLE dbs12302449.T01_Usuario;
+            DROP TABLE dbs12302449.T07_Parcela;
             CONSULTA;
     $consultaPreparada = $conn->prepare($consulta);
     $consultaPreparada->execute();
