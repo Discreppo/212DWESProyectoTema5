@@ -29,10 +29,22 @@ try {
                 ('ismael', SHA2('ismaelpaso', 256), 'Ismael Ferreras García', 'usuario'),
                 ('heraclio', SHA2('heracliopaso', 256), 'Heraclio Borbujo Moran', 'usuario'),
                 ('amor', SHA2('amorpaso', 256), 'Amor Rodriguez Navarro', 'usuario');
-            INSERT INTO dbs12302449.T07_Parcela (T07_CodParcela, T07_DescParcela, T07_Superficie, T07_Uso, T07_Precio, T07_FechaBaja) VALUES
+            INSERT INTO DB212DWESLoginLogoffTema5.T07_Parcela (T07_CodParcela, T07_DescParcela, T07_Superficie, T07_Uso, T07_Precio, T07_FechaBaja) VALUES
                 ('001', 'Parcela de maíz', 150.75, 'Regadío', 5000.00, NULL),
                 ('002', 'Parcela de trigo', 200.30, 'Secano', 7000.00, NULL),
-                ('003', 'Parcela de uvas', 80.50, 'Regadío', 3000.00, NULL);
+                ('003', 'Parcela de uvas', 80.50, 'Regadío', 3000.00, NULL),
+                ('004', 'Parcela de papas', 120.25, 'Secano', 4500.00, NULL),
+                ('005', 'Parcela de tomates', 90.80, 'Regadío', 2500.00, NULL),
+                ('006', 'Parcela de cebollas', 180.60, 'Secano', 6000.00, NULL),
+                ('007', 'Parcela de zanahorias', 75.40, 'Regadío', 2800.00, '2024-02-19 12:00:00'),
+                ('008', 'Parcela de lechugas', 110.90, 'Secano', 4000.00, NULL),
+                ('009', 'Parcela de fresas', 130.20, 'Regadío', 3500.00, NULL),
+                ('010', 'Parcela de manzanas', 160.70, 'Secano', 5500.00, NULL),
+                ('011', 'Parcela de peras', 100.40, 'Regadío', 3200.00, NULL),
+                ('012', 'Parcela de naranjas', 140.60, 'Secano', 4700.00, NULL),
+                ('013', 'Parcela de limones', 70.30, 'Regadío', 2300.00, NULL),
+                ('014', 'Parcela de sandías', 190.40, 'Secano', 6500.00, NULL),
+                ('015', 'Parcela de melones', 200.10, 'Regadío', 6000.00, NULL);
             CONSULTA;
     $consultaPreparada = $conn->prepare($consulta);
     $consultaPreparada->execute();
